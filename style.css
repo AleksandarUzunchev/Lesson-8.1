@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.custom-div-1 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+}
+
+.span-1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: antiquewhite;
+}
+
+.custom-div-2 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+.custom-div-3 {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.custom-div-4 {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+}
+
+.custom-div-5 {
+    width: 35px;
+    height: 35px;
+    background-color: aquamarine;
+}
