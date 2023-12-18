@@ -7,39 +7,52 @@ body {
     font-family: "roboto", sans-serif;
 }
 
-.custom-div-1 {
-    width: 150px;
-    height: 150px;
-    background-color: #ff0000;
+.card {
+    border: 1px solid #cccccc;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
 }
 
-.span-1 {
-    width: 25px;
-    height: 25px;
-    display: block;
-    background-color: antiquewhite;
+.card-thumb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 175px;
 }
 
-.custom-div-2 {
-    width: 30px;
-    height: 30px;
-    background-color: green;
+.card-thumb img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
-.custom-div-3 {
-    width: 40px;
-    height: 40px;
+.card-content {
+    padding: 20px 20px 20px 195px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    font-size: 15px;
+}
+
+.card-link {
+    padding: 7px 15px;
+    border-radius: 5px;
     background-color: blue;
+    color: #cccccc;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s all ease-in-out;
 }
 
-.custom-div-4 {
-    width: 20px;
-    height: 20px;
-    background-color: yellow;
-}
-
-.custom-div-5 {
-    width: 35px;
-    height: 35px;
+.card-link:hover {
     background-color: aquamarine;
 }
